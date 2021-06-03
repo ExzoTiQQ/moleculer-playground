@@ -1,9 +1,10 @@
 "use strict";
-const AMQP = require("moleculer-amqp-queue");
+
+const AMQPHelper = require("moleculer-amqp-queue");
 
 module.exports = {
   name: "sender",
-  mixins: [AMQP],
+  mixins: [AMQPHelper],
   actions: {
     send: {
       rest: {

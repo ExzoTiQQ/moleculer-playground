@@ -4,8 +4,7 @@
   "description": "Moleculer playground",
   "scripts": {
     "start": "node index.js",
-    "test": "jest --coverage",
-    "clean": "rm -rf node_modules coverage"
+    "test": "jest --coverage"
   },
   "author": "Yaroslav Afenkin",
   "devDependencies": {
@@ -13,6 +12,7 @@
     "jest-cli": "^26.6.3"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "moleculer": "^0.14.13",
     "moleculer-amqp-queue": "0.0.1",
     "moleculer-web": "^0.9.1"
